@@ -361,3 +361,13 @@ table {
   font-weight: bold;
   color: #ffff00;
 }
+
+span.tag a {
+  white-space: nowrap;
+}
+
+.job-title {
+  font-size: 22px;
+line-height: 30px;
+
+}
