@@ -338,6 +338,9 @@ a:hover {
   font-size: 12px;
   list-style: square;
   }*/
+
+/* Add custom CSS here */ 
+
 table {
   display: block; }
 
@@ -353,8 +356,10 @@ table {
   width: inherit;
 }
 
+
+
 .ih-item.square.effect8 .info p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .ih-item.square.effect8 .info h3 {
@@ -371,3 +376,20 @@ span.tag a {
 line-height: 30px;
 
 }
+
+/*Jeremy's code additions */
+.image-container a.th {
+  float: left;
+}
+.image-container > a.th {
+  max-width: 175px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.image a.th {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
